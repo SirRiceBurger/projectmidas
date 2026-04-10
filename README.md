@@ -18,7 +18,7 @@ The front-end gives users a map-centric interface to explore their site, inspect
 
 ## Where Midas V1.1 is 
 
-Midas is currently in development stage (Development paused as of April 2026). However, V1.1 is an up-and-running prototype of the main goals of MIDAS, showcasing some of the main features such as the stochastic optimisation process. In further development. It will be absolutely necessary to incorporate more robust data ingestion (at the moment, the engine is fed static JSON files which only align with one specific schema), amongst other things.
+Midas is currently in development stage (Development paused as of April 2026). However, V1.1 is an up-and-running prototype of the main goals of MIDAS, showcasing some of the main features such as the stochastic optimisation process. In further development, it will be absolutely necessary to incorporate more robust data ingestion (at the moment, the engine is fed static JSON files which only align with one specific schema), amongst other things.
 
 ---
 
