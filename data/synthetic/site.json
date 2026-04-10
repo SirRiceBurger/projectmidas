@@ -1,0 +1,7 @@
+{
+  "area_ha": 25,
+  "soil_depth_cm": 45,
+  "soil_type": "clay_loam",
+  "proximity_to_water_m": 120,
+  "land_use_current": "grazing"
+}

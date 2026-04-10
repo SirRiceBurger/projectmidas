@@ -1,0 +1,6 @@
+{
+  "bushfire_risk": 0.4,
+  "flood_risk": 0.2,
+  "drought_risk": 0.35,
+  "erosion_risk": 0.15
+}

@@ -1,0 +1,11 @@
+{
+  "canopy_cover": 0.35,
+  "bare_soil_fraction": 0.2,
+  "slope_degrees": 8,
+  "aspect_degrees": 180,
+  "drainage_index": 0.6,
+  "shade_fraction": 0.25,
+  "uv_index": 6.5,
+  "georef_confidence": 0.92,
+  "coverage_fraction": 0.95
+}

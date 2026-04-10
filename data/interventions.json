@@ -1,0 +1,95 @@
+[
+  {
+    "id": "I1",
+    "name": "Revegetation Belt",
+    "description": "Native species planting along site boundaries and riparian corridors.",
+    "expected_emissions": 120.0,
+    "success_probability": 0.82,
+    "expected_cost": 120000.0,
+    "cvar_loss": 40000.0,
+    "maintenance_cost_annual": 5000.0,
+    "resilience_score": 0.7,
+    "use_cost_model": false,
+    "feasibility_rules": [
+      {
+        "field": "bushfire",
+        "operator": ">",
+        "threshold": 0.5,
+        "effect": "infeasible",
+        "reason": "High bushfire risk rules out planting"
+      },
+      {
+        "field": "slope",
+        "operator": ">",
+        "threshold": 20.0,
+        "effect": "infeasible",
+        "reason": "Slope too steep for revegetation"
+      }
+    ],
+    "enabled": true,
+    "is_builtin": true,
+    "created_at": "2026-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "I2",
+    "name": "Rooftop Solar Retrofit",
+    "description": "Installation of photovoltaic panels on existing structures.",
+    "expected_emissions": 180.0,
+    "success_probability": 0.93,
+    "expected_cost": 220000.0,
+    "cvar_loss": 25000.0,
+    "maintenance_cost_annual": 3000.0,
+    "resilience_score": 0.5,
+    "use_cost_model": false,
+    "feasibility_rules": [
+      {
+        "field": "shade",
+        "operator": ">",
+        "threshold": 0.6,
+        "effect": "infeasible",
+        "reason": "Excessive shading for solar"
+      },
+      {
+        "field": "aspect",
+        "operator": "<",
+        "threshold": 90.0,
+        "effect": "infeasible",
+        "reason": "Roof orientation unsuitable"
+      }
+    ],
+    "enabled": true,
+    "is_builtin": true,
+    "created_at": "2026-01-01T00:00:00+00:00"
+  },
+  {
+    "id": "I3",
+    "name": "Water Retention & Soil Restoration",
+    "description": "Earthworks, swales, and soil amendment for water retention.",
+    "expected_emissions": 150.0,
+    "success_probability": 0.65,
+    "expected_cost": 130000.0,
+    "cvar_loss": 90000.0,
+    "maintenance_cost_annual": 4000.0,
+    "resilience_score": 0.8,
+    "use_cost_model": false,
+    "feasibility_rules": [
+      {
+        "field": "slope",
+        "operator": ">",
+        "threshold": 15.0,
+        "effect": "infeasible",
+        "reason": "Slope too steep for water retention"
+      },
+      {
+        "field": "drainage",
+        "operator": ">",
+        "threshold": 0.8,
+        "effect": "infeasible",
+        "reason": "Too well-drained for water retention"
+      }
+    ],
+    "enabled": true,
+    "is_builtin": true,
+    "created_at": "2026-01-01T00:00:00+00:00"
+  }
+]
